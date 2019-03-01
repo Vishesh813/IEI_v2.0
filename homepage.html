@@ -1,0 +1,131 @@
+
+<?php
+	session_start();
+?>
+<!DOCTYPE HTML>
+<!--
+	Directive by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+	<link rel="shortcut icon" href="assets1/img/logo.png">
+		<title>Congratulations!!</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="asset/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<div id="header">
+				<img src ="logo.png" class="img-circle" style="background-color:#cccccc" width="200" height="200">
+				<h1>Congratulations, <?php echo $_SESSION['username']; ?>You are Logged IN</h1>
+				
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<header class="major container 75%">
+					<h2>We conduct events that
+					<br />
+					may or may not break 
+					<br />
+					the trend in technological world!!</h2>
+					<!--
+					<p>Tellus erat mauris ipsum fermentum<br />
+					etiam vivamus nunc nibh morbi.</p>
+					-->
+				</header>
+
+				<div class="box alt container">
+					<section class="feature left">
+						<a href="works.html" class="image icon"><img src="assets1/img/techmytho1.jpg" height="330" width="200" alt="" /></a>
+						<div class="content">
+							<h3>Techmytho</h3>
+							<p>"Techmytho" Brings You a riddle which leaves you breaking your knuckles and twisting your brain.A cryptographic quiz,that was hosted online in November,2016 for all the IEI members,and participants recieved exciting prizes.</p>
+						</div>
+					</section>
+					<section class="feature right">
+						<a href="works.html" class="image icon"><img src="assets1/img/bridge2.jpg" height="330" width="200" alt="" /></a>
+						<div class="content">
+							<h3>Bridge It</h3>
+							<p>An event in which in which participating teams were required to make a bridge out of popsicle sticks.The team which withstood maximum load won!</p>
+						</div>
+					</section>
+					<section class="feature left">
+						<a href="works.html" class="image icon"><img src="assets1/img/open book.jpg" height="330" width="200" alt="" /></a>
+						<div class="content">
+							<h3>Open Book Test</h3>
+							<p>An event in which participants were required to make a team,which were provided a given a set of questions.The teams were required to submit solution within given time.They can search for answers from anywhere. </p>
+						</div>
+					</section>
+				</div>
+
+
+				<footer class="major container 75%">
+					<h3>Current Event</h3>
+					<p>Sorry no Current Event <i class="fa fa-smile-o"></i> </p>
+					<ul class="actions">
+						<li><a href="index.html" class="button">Click for homepage</a></li>
+					</ul>
+				</footer>
+
+			</div>
+
+		<!-- Footer -->
+		<--<div id="footer">
+				<div class="container-fluid">
+
+					<header class="major last">
+						
+
+					<!---------<form method="post" action="#">
+						<div class="row">
+							<div class="6u 12u(mobilep)">
+								<input type="text" name="name" placeholder="Name" />
+							</div>
+							<div class="6u 12u(mobilep)">
+								<input type="email" name="email" placeholder="Email" />
+							</div>
+						</div>
+						<div class="row">
+							<div class="12u">
+								<textarea name="message" placeholder="Message" rows="6"></textarea>
+							</div>
+						</div>
+						<div class="row">
+							<div class="12u">
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</div>
+						</div>
+					</form------> 
+
+					<ul class="icons">
+						
+						<li><a href="https://www.facebook.com/iei.knit/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						
+						
+						<li><a href="https://www.ieindia.org/" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+					</ul>
+
+					<ul class="copyright">
+						<li>&copy;All rights reserved.</li><li>IEI Cyber Cell Team</li>
+					</ul>
+
+				</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
